@@ -1,10 +1,10 @@
 import React from "react";
-import Nav from "./Navigation";
+import Navigation from "./Navigation";
 
-export default function Header() {
+export default function Header({ navLink }) {
   return (
     <div>
-      <Nav />
+      <Navigation navLink={navLink} />
       <h1>Natasha Sunita Portfolio</h1>
     </div>
   );

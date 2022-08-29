@@ -1,5 +1,14 @@
 import React from "react";
 
-export default function Footer() {
-  return <div></div>;
-}
+const Footer = () => (
+  <div className="footer">
+    <p>
+      <a href="https://github.com/LonelyOrphan">Github</a>|
+      <a href="https://www.linkedin.com/in/natasha-sunita-567b1476/">
+        LinkedIn
+      </a>
+    </p>
+  </div>
+);
+
+export default Footer;
