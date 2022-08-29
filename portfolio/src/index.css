@@ -21,7 +21,8 @@ code {
   font-size: 1.5rem;
 }
 
-.nav-link {
+.nav-link,
+h1 {
   color: white !important;
 }
 
