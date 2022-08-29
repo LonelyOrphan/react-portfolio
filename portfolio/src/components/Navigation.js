@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-export default function Navigation({ navLink }) {
+export default function Navigation() {
   // const renderSection = setSection((section = this.text));
   return (
     <Navbar className="nav" expand="lg">
