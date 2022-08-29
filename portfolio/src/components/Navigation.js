@@ -12,7 +12,7 @@ export default function Navigation({ navLink }) {
           <Nav.Link className="nav-link" href="#aboutme">
             About Me
           </Nav.Link>
-          <Nav.Link onClick={navLink("myWork")}>My Work</Nav.Link>
+          <Nav.Link>My Work</Nav.Link>
           <Nav.Link href="#cv">CV</Nav.Link>
           <Nav.Link href="#contactme">Contact Me</Nav.Link>
         </Nav>
