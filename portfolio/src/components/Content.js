@@ -2,7 +2,7 @@ import React from "react";
 import Project from "./Project";
 
 export default function Content(props) {
-  if (props.showContent === "bio") {
+  if (props.showContent === "aboutMe") {
     return (
       <main>
         <div className="bio-text">
@@ -24,7 +24,7 @@ export default function Content(props) {
         </div>
       </main>
     );
-  } else if (props.showContent === "project") {
+  } else if (props.showContent === "myWork") {
     return <Project />;
   }
 }
