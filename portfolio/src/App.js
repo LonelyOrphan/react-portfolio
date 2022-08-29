@@ -8,10 +8,12 @@ import Project from "./components/Project";
 import Footer from "./components/Footer";
 
 function App() {
+  const [chosenContent, setChosenContent] = useState("bio");
+  console.log(chosenContent);
   return (
     <>
-      <Header />
-      <Content />
+      <Header changeContent={setChosenContent} />
+      <Content showContent={chosenContent} />
       <Footer />
     </>
   );

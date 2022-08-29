@@ -22,7 +22,8 @@ code {
 }
 
 .nav-link,
-h1 {
+h1,
+.bio-text {
   color: white !important;
 }
 

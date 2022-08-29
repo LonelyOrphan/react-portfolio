@@ -1,10 +1,10 @@
 import React from "react";
 import Navigation from "./Navigation";
 
-export default function Header() {
+export default function Header({ changeContent }) {
   return (
     <div>
-      <Navigation />
+      <Navigation changeContent={changeContent} />
       <h1>Natasha Sunita - About Me</h1>
     </div>
   );

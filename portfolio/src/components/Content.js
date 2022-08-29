@@ -2,10 +2,10 @@ import React from "react";
 import Project from "./Project";
 
 export default function Content(props) {
-  if (props === "bio") {
+  if (props.showContent === "bio") {
     return (
       <main>
-        <div class="main-text m-5 p-3">
+        <div className="bio-text">
           <p>
             Full-stack web development student at the University of Birmingham
           </p>
@@ -24,7 +24,7 @@ export default function Content(props) {
         </div>
       </main>
     );
-  } else if (props === "project") {
+  } else if (props.showContent === "project") {
     return <Project />;
   }
 }

@@ -2,17 +2,19 @@ import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
-export default function Navigation() {
-  // const renderSection = setSection((section = this.text));
+export default function Navigation({ changeContent }) {
   return (
     <Navbar className="nav" expand="lg">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
-          <Nav.Link className="nav-link" href="#aboutme">
+          <Nav.Link
+            className="nav-link"
+            onClick={() => changeContent("aboutMe")}
+          >
             About Me
           </Nav.Link>
-          <Nav.Link>My Work</Nav.Link>
+          <Nav.Link onClick={() => changeContent("myWork")}>My Work</Nav.Link>
           <Nav.Link href="#cv">CV</Nav.Link>
           <Nav.Link href="#contactme">Contact Me</Nav.Link>
         </Nav>
