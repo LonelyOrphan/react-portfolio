@@ -25,6 +25,11 @@ export default function Content(props) {
       </main>
     );
   } else if (props.showContent === "myWork") {
-    return <Project />;
+    return (
+      <Project
+        title={"Day Planner"}
+        imgsrc={"../public/dayplannerscreenshot_resized.jpg"}
+      />
+    );
   }
 }

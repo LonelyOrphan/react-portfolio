@@ -1,10 +1,13 @@
 import React from "react";
+import Card from "react-bootstrap/Card";
 
-export default function Project() {
+export default function Project(props) {
   return (
-    <div>
-      {/* Single project component that is used multiple times in my work section */}
-      <p>PRoject info will go here</p>
-    </div>
+    <Card className="bg-dark text-white" style={{ width: "20rem" }}>
+      <Card.Img src={props.imgsrc} alt="Card image" />
+      <Card.ImgOverlay>
+        <Card.Title>{props.title}</Card.Title>
+      </Card.ImgOverlay>
+    </Card>
   );
 }
