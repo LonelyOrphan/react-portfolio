@@ -1,5 +1,8 @@
 import React from "react";
 import Project from "./Project";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 export default function Content(props) {
   if (props.showContent === "aboutMe") {
@@ -26,10 +29,43 @@ export default function Content(props) {
     );
   } else if (props.showContent === "myWork") {
     return (
-      <Project
-        title={"Day Planner"}
-        imgsrc={"../public/dayplannerscreenshot_resized.jpg"}
-      />
+      <Container>
+        <Row className="mb-5 justify-content-center">
+          <Col sm={12} md={4}>
+            {" "}
+            <Project
+              title={"Password Generator"}
+              image="passwordgeneratorscreenshot_resized.jpg"
+            />
+          </Col>
+          <Col sm={12} md={4}>
+            {" "}
+            <Project
+              title={"Day Planner"}
+              image="dayplannerscreenshot_resized.jpg"
+            />
+          </Col>
+        </Row>
+        <Row>
+          <Col sm={12} md={4}>
+            {" "}
+            <Project
+              title={"Weather Dashboard"}
+              image="weatherdashboardscreenshot_resized.jpg"
+            />
+          </Col>
+          <Col sm={12} md={4}>
+            <Project
+              title={"Money Mail"}
+              image="moneymailscreenshot_resized.jpg"
+            />
+          </Col>
+          <Col sm={12} md={4}>
+            {" "}
+            <Project title={"StayHaven"} image="stayhaven_resized.jpg" />
+          </Col>
+        </Row>
+      </Container>
     );
   }
 }

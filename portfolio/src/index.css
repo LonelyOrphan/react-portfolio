@@ -42,7 +42,12 @@ h1,
 }
 
 .footer a:hover,
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:active {
   text-decoration: none;
   color: #65ca69 !important;
+}
+
+.card-link {
+  text-decoration: none;
 }
