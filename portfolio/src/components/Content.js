@@ -29,16 +29,17 @@ export default function Content(props) {
     );
   } else if (props.showContent === "myWork") {
     return (
-      <Container>
-        <Row className="mb-5 justify-content-center">
-          <Col sm={12} md={4}>
+      <Container className="justify-content-center">
+        <Row className="mb-5">
+          <Col sm={12} md={6} lg={6} xl={6}>
             {" "}
             <Project
               title={"Password Generator"}
+              projectURL="https://github.com/LonelyOrphan/password-generator"
               image="passwordgeneratorscreenshot_resized.jpg"
             />
           </Col>
-          <Col sm={12} md={4}>
+          <Col sm={12} md={6} lg={6} xl={6}>
             {" "}
             <Project
               title={"Day Planner"}
@@ -46,21 +47,21 @@ export default function Content(props) {
             />
           </Col>
         </Row>
-        <Row>
-          <Col sm={12} md={4}>
+        <Row className="justify-content-center">
+          <Col sm={12} md={6} lg={6} xl={4}>
             {" "}
             <Project
               title={"Weather Dashboard"}
               image="weatherdashboardscreenshot_resized.jpg"
             />
           </Col>
-          <Col sm={12} md={4}>
+          <Col sm={12} md={6} lg={6} xl={4}>
             <Project
               title={"Money Mail"}
               image="moneymailscreenshot_resized.jpg"
             />
           </Col>
-          <Col sm={12} md={4}>
+          <Col sm={12} md={6} lg={6} xl={4}>
             {" "}
             <Project title={"StayHaven"} image="stayhaven_resized.jpg" />
           </Col>
