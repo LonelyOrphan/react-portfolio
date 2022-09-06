@@ -14,7 +14,7 @@ export default function Project(props) {
         <Card.Body className="text-center bg-light">
           <Card.Title>{props.title}</Card.Title>
           <Card.Text>{props.descr}</Card.Text>
-          <Card.Link className="card-link" href="#">
+          <Card.Link className="card-link" href={props.repoLink}>
             Github Repo
           </Card.Link>
         </Card.Body>

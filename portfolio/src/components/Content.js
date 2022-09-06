@@ -35,7 +35,8 @@ export default function Content(props) {
             {" "}
             <Project
               title={"Password Generator"}
-              projectURL="https://github.com/LonelyOrphan/password-generator"
+              projectURL="https://lonelyorphan.github.io/password-generator/"
+              repoLink="https://github.com/LonelyOrphan/password-generator"
               image="passwordgeneratorscreenshot_resized.jpg"
             />
           </Col>
@@ -43,6 +44,8 @@ export default function Content(props) {
             {" "}
             <Project
               title={"Day Planner"}
+              projectURL="https://lonelyorphan.github.io/day-planner/"
+              repoLink="https://github.com/LonelyOrphan/day-planner"
               image="dayplannerscreenshot_resized.jpg"
             />
           </Col>
@@ -52,18 +55,27 @@ export default function Content(props) {
             {" "}
             <Project
               title={"Weather Dashboard"}
+              projectURL="https://lonelyorphan.github.io/weather-app/"
+              repoLink="https://github.com/LonelyOrphan/weather-app"
               image="weatherdashboardscreenshot_resized.jpg"
             />
           </Col>
           <Col sm={12} md={6} lg={6} xl={4}>
             <Project
               title={"Money Mail"}
+              projectURL="https://ss12932.github.io/currency-news-project/"
+              repoLink="https://github.com/ss12932/currency-news-project"
               image="moneymailscreenshot_resized.jpg"
             />
           </Col>
           <Col sm={12} md={6} lg={6} xl={4}>
             {" "}
-            <Project title={"StayHaven"} image="stayhaven_resized.jpg" />
+            <Project
+              title={"StayHaven"}
+              projectURL="https://radiant-bayou-46133.herokuapp.com/"
+              repoLink="https://github.com/frsargua/STAYHAVEN-APP"
+              image="stayhaven_resized.jpg"
+            />
           </Col>
         </Row>
       </Container>
