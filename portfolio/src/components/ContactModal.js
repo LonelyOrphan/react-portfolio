@@ -11,11 +11,28 @@ export default function ContactModal(props) {
   return (
     <>
       <Modal show={props.isVisible} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+        <Modal.Header className="contact-modal" closeButton>
+          <Modal.Title className="contact-modal contact-text">
+            Natasha Sunita Contact Info
+          </Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-        <Modal.Footer>
+        <Modal.Body className="contact-modal">
+          {" "}
+          <ul className="contact-text">
+            <li>Email: natashasunita90@gmail.com</li>
+            <li>Phone: +44 7378 350739</li>
+            <li>
+              LinkedIn:{" "}
+              <a
+                className="contact-text"
+                href="https://www.linkedin.com/in/natasha-sunita-567b1476/"
+              >
+                https://www.linkedin.com/in/natasha-sunita-567b1476/"
+              </a>
+            </li>
+          </ul>
+        </Modal.Body>
+        <Modal.Footer className="contact-modal">
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
