@@ -21,7 +21,10 @@ export default function Navigation({ changeContent }) {
               About Me
             </Nav.Link>
             <Nav.Link onClick={() => changeContent("myWork")}>My Work</Nav.Link>
-            <Nav.Link href="https://lonelyorphan.github.io/portfolio/assets/CV_NatashaSunita.pdf">
+            <Nav.Link
+              target="_blank"
+              href="https://lonelyorphan.github.io/portfolio/assets/CV_NatashaSunita.pdf"
+            >
               CV
             </Nav.Link>
             <Nav.Link onClick={handleShow}>Contact Me</Nav.Link>
