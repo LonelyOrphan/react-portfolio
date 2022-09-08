@@ -62,8 +62,6 @@ export default function Content(props) {
               image="codequizscreenshot_resized.jpg"
             />
           </Col>
-        </Row>
-        <Row className="justify-content-center">
           <Col sm={12} md={6} lg={6} xl={4}>
             {" "}
             <Project
