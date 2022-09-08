@@ -35,7 +35,7 @@ export default function Content(props) {
     return (
       <Container className="justify-content-center">
         <Row className="mb-5">
-          <Col sm={12} md={6} lg={6} xl={6}>
+          <Col sm={12} md={6} lg={6} xl={4}>
             {" "}
             <Project
               title={"Password Generator"}
@@ -44,13 +44,22 @@ export default function Content(props) {
               image="passwordgeneratorscreenshot_resized.jpg"
             />
           </Col>
-          <Col sm={12} md={6} lg={6} xl={6}>
+          <Col sm={12} md={6} lg={6} xl={4}>
             {" "}
             <Project
               title={"Day Planner"}
               projectURL="https://lonelyorphan.github.io/day-planner/"
               repoLink="https://github.com/LonelyOrphan/day-planner"
               image="dayplannerscreenshot_resized.jpg"
+            />
+          </Col>
+          <Col sm={12} md={6} lg={6} xl={4}>
+            {" "}
+            <Project
+              title={"Code Quiz"}
+              projectURL="https://lonelyorphan.github.io/timed-code-quiz/"
+              repoLink="https://github.com/LonelyOrphan/timed-code-quiz"
+              image="codequizscreenshot_resized.jpg"
             />
           </Col>
         </Row>
