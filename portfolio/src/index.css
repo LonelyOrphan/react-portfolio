@@ -37,6 +37,15 @@ h1 {
   margin: 2rem;
 }
 
+.avatar {
+  border-radius: 100%;
+  height: 100px;
+  margin-left: 2rem;
+  position: absolute;
+  left: 550px;
+  top: 90px;
+}
+
 .bio-text {
   margin: 2rem;
 }

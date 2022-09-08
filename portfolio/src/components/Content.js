@@ -8,6 +8,10 @@ export default function Content(props) {
   if (props.showContent === "aboutMe") {
     return (
       <main>
+        <img
+          src="https://avatars.githubusercontent.com/u/43299917?v=4"
+          className="avatar"
+        />
         <div className="bio-text">
           <p>
             Full-stack web development student at the University of Birmingham
