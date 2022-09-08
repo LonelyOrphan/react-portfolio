@@ -8,7 +8,6 @@ import Footer from "./components/Footer";
 
 function App() {
   const [chosenContent, setChosenContent] = useState("aboutMe");
-  console.log(chosenContent);
   return (
     <>
       <Header changeContent={setChosenContent} />
