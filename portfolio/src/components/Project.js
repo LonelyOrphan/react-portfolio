@@ -4,7 +4,11 @@ import Card from "react-bootstrap/Card";
 export default function Project(props) {
   return (
     <Card style={{ width: "20rem" }}>
-      <Card.Img varient="top" src={`images/${props.image}`} alt="Card image" />
+      <Card.Img
+        varient="top"
+        src={`${process.env.PUBLIC_URL}/images/${props.image}`}
+        alt="Card image"
+      />
       <Card.Body className="text-center bg-light">
         <Card.Link href={props.projectURL}>{props.title}</Card.Link>
         <Card.Text>{props.descr}</Card.Text>
