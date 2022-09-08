@@ -17,7 +17,7 @@ export default function Content(props) {
             Full-stack web development student at the University of Birmingham
           </p>
           <p>Learning the following technologies:</p>
-          <ul class="pt-5">
+          <ul class="pt-3">
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
