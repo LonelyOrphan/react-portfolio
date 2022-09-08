@@ -8,7 +8,7 @@ export default function ContactModal(props) {
   const [inputMessage, setInputMessage] = useState("Your Message");
 
   const updateName = () => {
-    setInputName("This name is required");
+    setInputName("Your name is required");
   };
 
   const updateEmail = () => {
