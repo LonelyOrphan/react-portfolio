@@ -2,7 +2,7 @@
 
 Deployed Application https://lonelyorphan.github.io/react-portfolio/
 
-![Screenshot](/portfolio/screenshot/images/reactporfolioscreenshot.jpg)
+![Screenshot](reactportfolioscreenshot.jpg)
 
 # 20 React: React Portfolio
 
