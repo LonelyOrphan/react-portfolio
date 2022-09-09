@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import ContactModal from "./ContactModal";
 
 export default function Navigation({ changeContent }) {
+  // Show or hide contact modal
   const [show, setShow] = useState(false);
   const handleShow = () => setShow(!show);
   console.log(show);

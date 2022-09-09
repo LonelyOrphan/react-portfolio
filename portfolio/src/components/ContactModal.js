@@ -3,6 +3,7 @@ import Modal from "react-bootstrap/Modal";
 import React, { useState } from "react";
 
 export default function ContactModal(props) {
+  // Control what to show in contact fields
   const [inputName, setInputName] = useState("Your Name");
   const [inputEmail, setInputEmail] = useState("Your Email");
   const [inputMessage, setInputMessage] = useState("Your Message");
@@ -19,6 +20,7 @@ export default function ContactModal(props) {
     setInputMessage("Your Message is required");
   };
 
+  // Handle close for modal
   const handleClose = () => {
     console.log("close");
     props.setShow(false);
@@ -26,6 +28,7 @@ export default function ContactModal(props) {
 
   return (
     <>
+      {/* Modal */}
       <Modal show={props.isVisible} onHide={handleClose}>
         <Modal.Header className="contact-modal" closeButton>
           <Modal.Title className="contact-modal contact-text">
@@ -34,6 +37,7 @@ export default function ContactModal(props) {
         </Modal.Header>
         <Modal.Body className="contact-modal">
           {" "}
+          {/* Contact form */}
           <form>
             <div className="mb-3 pt-0">
               <input

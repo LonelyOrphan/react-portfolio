@@ -8,10 +8,12 @@ export default function Content(props) {
   if (props.showContent === "aboutMe") {
     return (
       <main>
+        {/* Avatar */}
         <img
           src="https://avatars.githubusercontent.com/u/43299917?v=4"
           className="avatar"
         />
+        {/* Bio Text */}
         <div className="bio-text">
           <p>
             Full-stack web development student at the University of Birmingham
@@ -33,6 +35,7 @@ export default function Content(props) {
     );
   } else if (props.showContent === "myWork") {
     return (
+      // Dev Projects
       <Container className="justify-content-center">
         <Row className="mb-5">
           <Col sm={12} md={6} lg={6} xl={4}>
