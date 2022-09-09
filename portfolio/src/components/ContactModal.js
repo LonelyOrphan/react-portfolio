@@ -39,7 +39,7 @@ export default function ContactModal(props) {
           {" "}
           {/* Contact form */}
           <form>
-            <div className="mb-3 pt-0">
+            <div className="mb-3 pt-0 modalText">
               <input
                 type="text"
                 placeholder={inputName}
@@ -49,7 +49,7 @@ export default function ContactModal(props) {
                 required
               />
             </div>
-            <div className="mb-3 pt-0">
+            <div className="mb-3 pt-0 modalText">
               <input
                 type="email"
                 placeholder={inputEmail}
@@ -59,7 +59,7 @@ export default function ContactModal(props) {
                 required
               />
             </div>
-            <div className="mb-3 pt-0">
+            <div className="mb-3 pt-0 modalText">
               <textarea
                 placeholder={inputMessage}
                 name="message"
@@ -68,7 +68,7 @@ export default function ContactModal(props) {
                 required
               />
             </div>
-            <div className="mb-3 pt-0">
+            <div className="mb-3 pt-0 modalText">
               <button className="submitBtn" type="submit">
                 Send a message
               </button>

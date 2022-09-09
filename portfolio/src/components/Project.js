@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 
 export default function Project(props) {
   return (
-    <Card className="mb-4" style={{ width: "22rem" }}>
+    <Card className="mb-4" style={{ width: "34rem" }}>
       <Card.Img
         varient="top"
         className="cardImg"
