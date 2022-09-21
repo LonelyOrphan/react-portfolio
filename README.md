@@ -1,4 +1,4 @@
-# Portfolio ![Github licence](https://img.shields.io/badge/MIT-License-orange)
+# React Portfolio ![Github licence](https://img.shields.io/badge/MIT-License-orange)
 
 ## Table of Contents
 
