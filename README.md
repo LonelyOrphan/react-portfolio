@@ -1,4 +1,4 @@
-# README Generator ![Github licence](https://img.shields.io/badge/MIT-License-orange)
+# Portfolio ![Github licence](https://img.shields.io/badge/MIT-License-orange)
 
 ## Table of Contents
 
