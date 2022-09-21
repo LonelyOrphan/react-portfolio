@@ -60,8 +60,8 @@ export default function Content(props) {
             {" "}
             <Project
               title={"Code Quiz"}
-              projectURL="https://lonelyorphan.github.io/timed-code-quiz/"
-              repoLink="https://github.com/LonelyOrphan/timed-code-quiz"
+              projectURL="https://lonelyorphan.github.io/timed-coding-quiz/"
+              repoLink="https://github.com/LonelyOrphan/timed-coding-quiz"
               image="codequizscreenshot_resized.jpg"
             />
           </Col>
