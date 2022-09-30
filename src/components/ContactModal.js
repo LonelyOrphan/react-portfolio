@@ -36,7 +36,7 @@ export default function ContactModal(props) {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body className="contact-modal">
-          {" "}
+          <p class="contact-text">Email: natashasunita90@gmail.com</p>{" "}
           {/* Contact form */}
           <form>
             <div className="mb-3 pt-0 modalText">
