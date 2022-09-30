@@ -15,10 +15,8 @@ export default function Content(props) {
         />
         {/* Bio Text */}
         <div className="bio-text">
-          <p>
-            Full-stack web development student at the University of Birmingham
-          </p>
-          <p>Learning the following technologies:</p>
+          <p>Full-stack junior web developer</p>
+          <p>Familiar with the following technologies:</p>
           <ul class="pt-3">
             <li>HTML</li>
             <li>CSS</li>
