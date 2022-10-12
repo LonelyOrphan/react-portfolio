@@ -32,13 +32,14 @@ export default function ContactModal(props) {
       <Modal show={props.isVisible} onHide={handleClose}>
         <Modal.Header className="contact-modal" closeButton>
           <Modal.Title className="contact-modal contact-text">
-            Natasha Sunita Contact Form
+            Natasha Sunita Contact Details
           </Modal.Title>
         </Modal.Header>
         <Modal.Body className="contact-modal">
-          <p class="contact-text">Email: natashasunita90@gmail.com</p>{" "}
+          <p class="contact-text">Email: natashasunita90@gmail.com</p>
+          <p class="contact-text">Phone: +44 (0)7378 350739</p>{" "}
           {/* Contact form */}
-          <form>
+          {/* <form>
             <div className="mb-3 pt-0 modalText">
               <input
                 type="text"
@@ -73,7 +74,7 @@ export default function ContactModal(props) {
                 Send a message
               </button>
             </div>
-          </form>
+          </form> */}
         </Modal.Body>
         <Modal.Footer className="contact-modal">
           <Button variant="secondary" onClick={handleClose}>
